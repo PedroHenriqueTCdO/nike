@@ -1,6 +1,10 @@
-body {
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     background-color: #ccee66;
     color: white;
     padding: 20px 160px;
@@ -43,12 +47,12 @@ h4 {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 50px;
 }
 
 p {
-    font-size: 16px;
-    margin-bottom: 40px;
+    font-size: 14px;
+    margin-bottom: 20px;
 }
 
 .botao-carrinho {
